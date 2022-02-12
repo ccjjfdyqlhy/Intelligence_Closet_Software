@@ -6,4 +6,4 @@
 用 ***python setup.py install*** 来安装  
 用 ***python setup.py instlibs*** 来安装需求库  
 用 ***python setup.py reinstall*** 来重新安装一个新的版本，并进行新的设定  
-未完待续  
+用 ***python setup.py fixup*** 来修复大部分程序问题  
