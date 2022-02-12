@@ -2,7 +2,8 @@ import time
 import sys
 import os
 import codecs
-a=input('警告：如果你已经安装了智能衣柜管理系统，再次运行该程序会覆盖所有的程序文件，用户数据不予保留。真的要运行吗？(Y/其他)')
+os.system('cls')
+a=input('这将重新安装一个全新的智能衣柜客户端。如果想要修复数据或者重新安装配置文件请使用命令[python setup.py fixup]。真的要运行吗？(Y/其他)')
 if a == 'Y':
     pass
 else:
