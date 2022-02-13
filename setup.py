@@ -24,8 +24,8 @@ def install():
     time.sleep(2)
     print('正在下载程序文件...')
     cwd=os.getcwd()
-    os.system('git clone https://github.com/ccjjfdyqlhy/Intelligence_Closet.git ./code')
-    os.system('git clone https://github.com/ccjjfdyqlhy/Intelligence_Closet.git '+cwd+'/code')
+    os.system('git clone https://github.com/ccjjfdyqlhy/IC_download_source.git ./code')
+    os.system('git clone https://github.com/ccjjfdyqlhy/IC_download_source.git '+cwd+'/code')
     with open(filename,'w',encoding='utf-8')as file_object:
         file_object.write('[ICsetupfile]\n')#抬头
         file_object.write('1\n')#首次安装
@@ -38,7 +38,7 @@ def install():
         print('正在补全支持库...')
         os.system('pip install requests')
     print('正在运行程序...')
-    os.system('python ./code/main.py')
+    os.system('python ./code/App.py')
 def instlibs():
     print('正在检查支持库状态...')
     try:
